@@ -4,3 +4,5 @@ How is the staging area different from the working directory and the repository?
 -It is a mid(transfer) area to make a commit from a working directory
 How can you use the staging area to make sure you have one commit per logical change?
 -You can use git diff and git diff --staged to track examine changes
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+-In cases when you are working on a new version of your program, but want to keep the actual one running.
