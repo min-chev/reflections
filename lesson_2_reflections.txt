@@ -2,3 +2,5 @@ What happens when you initialize a repository? Why do you need to do it?
 -You make a new hidden git folder. In this directory you can start saving commits.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 -It is a mid(transfer) area to make a commit from a working directory
+How can you use the staging area to make sure you have one commit per logical change?
+-You can use git diff and git diff --staged to track examine changes
